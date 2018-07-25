@@ -1,0 +1,21 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-static": "^0.7.10",
+    "webpack": "^4.16.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.0"
+  },
+  "scripts": {
+    "webpack": "webpack",
+    "dev": "npm run webpack -- --node development",
+    "prod": "npm run webpack -- --node production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
